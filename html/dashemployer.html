@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>Employer Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link href="css/shop-homepage.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/paperlessoffice.css">
+ <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<body>
+<!-- navbar -->
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left tanvisidebar" style="display:none" id="mySidebar">
+ <button class="w3-bar-item w3-button w3-large"
+ onclick="w3_close()">Close &times;</button>
+ <a href="employerpersonal.html" class="w3-bar-item w3-button">Personal Information</a>
+ <a href="employercontact.html" class="w3-bar-item w3-button">Contact Information</a>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+ <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+</div>
+<br>
+<!-- page content -->
+<div class="container">
+
+    <h1 class="tanvi-head-dash">Employer Dashboard</h1>
+   <br><br><br>
+   <div class="row">
+
+       <div class="col-lg-4 col-md-6 mb-4">
+         <div class="card h-100">
+           <a href="#"><img class="card-img-top" src="https://tse1.mm.bing.net/th?id=OIP.mv9fMVpt8aBfQHVohLo2dQHaEJ&pid=Api&P=0&w=296&h=167" height="200px"; alt=""></a>
+           <div class="card-body">
+             <h4 class="card-title">Employee Page</h4>
+             <p class="card-text">Let me assign some work.</p>
+               <a href="employeremployeepage.html" class="btn btn-primary stretched-link">See Profiles</a>
+           </div>
+
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 mb-4">
+         <div class="card h-100">
+           <a href="#"><img class="card-img-top" src="https://simplycontentsllc.com/wp-content/uploads/2018/09/important-documents.jpeg" height="200px"; alt=""></a>
+           <div class="card-body">
+             <h4 class="card-title">Important Documents</h4>
+
+             <p class="card-text">Don't forget to update the latest information.</p>
+               <a href="employermanualpage.html" class="btn btn-primary stretched-link">Enter</a>
+           </div>
+
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 mb-4">
+         <div class="card h-100">
+           <a href="#"><img class="card-img-top" src="https://solopracticeuniversity.com/files/2018/06/monthly-report-image.jpg" height="200px"; alt=""></a>
+           <div class="card-body">
+             <h4 class="card-title">Monthly Report</h4>
+             <p class="card-text">Check the progress of the employees</p>
+             <a href="monthlyreport.html" class="btn btn-primary stretched-link">reports</a>
+           </div>
+
+         </div>
+       </div>
+
+
+
+     </div>
+     <!-- /.row -->
+
+   </div>
+   <!-- /.col-lg-9 -->
+
+ </div>
+ <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+
+</div>
+
+
+<script>
+function w3_open() {
+ document.getElementById("main").style.marginLeft = "20%";
+ document.getElementById("mySidebar").style.width = "20%";
+ document.getElementById("mySidebar").style.display = "block";
+ // document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+ document.getElementById("main").style.marginLeft = "0%";
+   document.getElementById("mySidebar").style.width = "0%";
+ document.getElementById("mySidebar").style.display = "none";
+ document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
